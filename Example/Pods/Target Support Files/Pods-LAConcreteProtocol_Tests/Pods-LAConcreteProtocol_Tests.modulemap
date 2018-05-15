@@ -1,0 +1,6 @@
+framework module Pods_LAConcreteProtocol_Tests {
+  umbrella header "Pods-LAConcreteProtocol_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

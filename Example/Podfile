@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'LAConcreteProtocol_Example' do
+  pod 'LAConcreteProtocol', :path => '../'
+
+  target 'LAConcreteProtocol_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+  end
+end

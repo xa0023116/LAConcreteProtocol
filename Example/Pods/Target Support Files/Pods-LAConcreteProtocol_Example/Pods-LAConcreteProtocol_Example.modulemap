@@ -1,0 +1,6 @@
+framework module Pods_LAConcreteProtocol_Example {
+  umbrella header "Pods-LAConcreteProtocol_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
